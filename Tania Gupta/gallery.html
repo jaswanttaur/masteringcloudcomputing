@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - TechNova Solutions</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+            color:#333;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        nav{
+            background:#084298;
+            text-align:center;
+            padding:12px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .container{
+            width:90%;
+            margin:40px auto;
+        }
+
+        .heading{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .heading h2{
+            color:#0d6efd;
+            margin-bottom:10px;
+        }
+
+        .gallery{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:12px;
+            overflow:hidden;
+            box-shadow:0 3px 10px rgba(0,0,0,0.15);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:20px;
+        }
+
+        .card-content h3{
+            color:#0d6efd;
+            margin-bottom:10px;
+        }
+
+        footer{
+            background:#212529;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TechNova Gallery</h1>
+        <p>Showcasing Our Projects, Innovation & Success</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="heading">
+            <h2>Our Work & Achievements</h2>
+            <p>Explore some highlights of our projects and company activities.</p>
+        </div>
+
+        <div class="gallery">
+
+            <div class="card">
+                <img src="https://picsum.photos/600/400?random=1" alt="Cloud Project">
+                <div class="card-content">
+                    <h3>Cloud Infrastructure Project</h3>
+                    <p>Deployment of scalable cloud solutions for enterprise clients.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/600/400?random=2" alt="Web Development">
+                <div class="card-content">
+                    <h3>Web Development</h3>
+                    <p>Modern responsive websites designed for business growth.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/600/400?random=3" alt="DevOps">
+                <div class="card-content">
+                    <h3>DevOps Automation</h3>
+                    <p>CI/CD pipelines and automated deployment workflows.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/600/400?random=4" alt="Team">
+                <div class="card-content">
+                    <h3>Team Collaboration</h3>
+                    <p>Working together to deliver innovative technology solutions.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/600/400?random=5" alt="Cyber Security">
+                <div class="card-content">
+                    <h3>Cyber Security</h3>
+                    <p>Protecting organizations with advanced security practices.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/600/400?random=6" alt="Innovation">
+                <div class="card-content">
+                    <h3>Innovation & Research</h3>
+                    <p>Exploring emerging technologies including AI and ML.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 TechNova Solutions | Gallery Page</p>
+    </footer>
+
+</body>
+</html>
