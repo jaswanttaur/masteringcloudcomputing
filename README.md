@@ -1,5 +1,14 @@
+# TechNova Solutions Website
 
-# Company Website
+This project combines the features of Capstone 1 and Capstone 2.
 
-Project developed during the Master Class on Cloud Computing and DevOps.
+## Features
+- Home
+- About
+- Services
+- Gallery
+- Contact
 
+Developed by:
+- Tarandeep Kaur
+- Roll No: 2302702
